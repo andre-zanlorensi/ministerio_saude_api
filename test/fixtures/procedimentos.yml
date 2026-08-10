@@ -1,5 +1,21 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+# == Schema Information
+#
+# Table name: procedimentos
+# Database name: primary
+#
+#  id               :bigint           not null, primary key
+#  data_agendamento :date
+#  data_realizacao  :date
+#  exame            :string
+#  paciente         :string
+#  quantidade       :integer
+#  status           :string
+#  valor            :decimal(, )
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#
 one:
   data_agendamento: 2026-08-09
   data_realizacao: 2026-08-09
