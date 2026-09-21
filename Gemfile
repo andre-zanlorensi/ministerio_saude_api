@@ -49,4 +49,4 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-gem "annotaterb", "~> 4.24", group: :development
+gem "annotaterb", "~> 4.25", group: :development
